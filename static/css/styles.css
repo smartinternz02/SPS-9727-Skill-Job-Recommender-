@@ -1,0 +1,102 @@
+body{
+  background-color: #dbe2ef;
+}
+
+.html{
+  align-content: center;
+  background-color: #dbe2ef;
+}
+
+.jumbotron{
+  background-color: #dbe2ef;
+}
+
+.logo{
+  position: absolute;
+  right: 25%;
+  top: 30%;
+}
+
+.centered {
+    /* padding-top: 200px; */
+    margin: 200px;
+    text-align: center;
+    background-color: #dbe2ef;
+}
+
+.colored{
+  background-color: #dbe2ef;
+}
+
+.form-group{
+  margin: 2% 5%;
+}
+
+.registerbox{
+  padding: 3%;
+  margin: 10% auto 20% 10%;
+  max-width: 40%;
+  background-color: #cadefc;
+}
+
+.buttons{
+  margin: auto 10px;
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* CHAT CSS */
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Darker chat container */
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+/* Clear floats */
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style images */
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Style the right image */
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+/* Style time text */
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+  float: left;
+  color: #999;
+}
